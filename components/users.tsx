@@ -40,7 +40,7 @@ function Users() {
         {usersList == null ?
           <h1>No Users Found!</h1>
           :
-          <div className="grid grid-cols-3 gap-9 w-100">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 w-100">
             {
               usersList.map((datum:UserType, index:number) => {
                 return(
