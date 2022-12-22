@@ -6,7 +6,7 @@ import Users from '../components/users'
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-zinc-100">
+    <div>
       <Head>
         <title>Next Users</title>
         <link rel="icon" href="/favicon.ico" />
